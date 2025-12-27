@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Displays crop growth stages to make life easier!",
+    "pack_format": 75,
+    "supported_formats": {"min_inclusive": 7, "max_inclusive": 76},
+	  "min_format": 7,
+    "max_format": 76
+  }
+}
