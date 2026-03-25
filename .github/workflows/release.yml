@@ -18,7 +18,7 @@ jobs:
 
       - name: Create the .zip file for the resource pack
         run: |
-          zip -r "hypergrowth-${{ github.event.release.tag_name }}.zip"
+          zip -r "hypergrowth-${{ github.event.release.tag_name }}.zip" .
 
       - name: Upload the zip file to the release
         uses: softprops/action-gh-release@v1
